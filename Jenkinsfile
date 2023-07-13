@@ -2,7 +2,7 @@
 node {
   
   def image
-  def mvnHome = tool 'Maven3'
+  def mvnHome = tool 'Maven3.6.3'
 
   
      stage ('checkout') {
